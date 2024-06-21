@@ -1,6 +1,4 @@
 Application.main = function() {
-    if (gl == null) {
-        Application.quit();
+    if (gl == null)
         return;
-    }
 }
