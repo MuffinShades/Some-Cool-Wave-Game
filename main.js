@@ -1,4 +1,9 @@
+const gl = glGraphics.GetInstance();
+
 Application.main = function() {
-    if (gl == null)
-        return;
+    
+}
+
+Application.tick = function() {
+    GameManager.tick();
 }
